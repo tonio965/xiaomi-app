@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/layout_bg"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/locationBox"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:paddingTop="4dp"
+        android:paddingLeft="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Sensor location:" />
+    <TextView
+        android:id="@+id/tempBox"
+        android:layout_width="match_parent"
+        android:paddingLeft="12dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Temp:"/>
+    <TextView
+        android:id="@+id/humiBox"
+        android:paddingLeft="12dp"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Humi:"/>
+
+
+</LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+</LinearLayout>

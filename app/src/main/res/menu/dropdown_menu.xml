@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/mainMenu"
+        android:icon="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:title="Main screen"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/browseSensors"
+        android:icon="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:title="Browse sensors"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/add_sensor"
+        android:icon="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:title="Add sensor"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/addRoomScheme"
+        android:icon="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:title="Add room plan"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/showCalendars"
+        android:icon="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:title="View historic data"
+        app:showAsAction="never">
+    </item>
+
+</menu>

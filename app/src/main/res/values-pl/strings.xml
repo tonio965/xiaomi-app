@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home sensors</string>
+    <string name="toTake">Do wzięcia:</string>
+    <string name="taken">Wzięte:</string>
+    <string name="name_">Nazwa:</string>
+    <string name="dose">Dawka:</string>
+    <string name="markedT">Zaznaczone jako: wzięte.</string>
+    <string name="markedN">Zaznaczone jako: do wzięcia.</string>
+    <string name="calendar">Kalendarz</string>
+    <string name="add">Dodaj</string>
+    <string name="remove">Usuń</string>
+    <string name="graph">Graf</string>
+    <string name="home">Dziś</string>
+    <string name="pic">Zrób zdjęcie</string>
+    <string name="addS">Dodaj suplement:</string>
+    <string name="duration">Czas trwania (w dawkach)</string>
+    <string name="interval">Interwał (w dniach)</string>
+    <string name="save">Dodaj</string>
+    <string name="create">Stwórz graf</string>
+
+</resources>

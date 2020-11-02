@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.v4.widget.DrawerLayout-->
+<!--    xmlns:android="https://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/drawer_layout"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:openDrawer="start">-->
+
+<!--    <include-->
+<!--        layout="@layout/app_bar_main"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+<!--    <android.support.design.widget.NavigationView-->
+<!--        android:id="@+id/nav_view"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        app:headerLayout="@layout/nav_header_main"-->
+<!--        app:menu="@menu/activity_main_drawer" />-->
+
+<!--</android.support.v4.widget.DrawerLayout>-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="#0c465c"
+    android:background="#0c465c"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="17dp"-->
+<!--        android:layout_marginTop="29dp"-->
+<!--        android:text="data int" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/textView"-->
+<!--        android:layout_alignStart="@+id/textView"-->
+<!--        android:layout_marginStart="5dp"-->
+<!--        android:layout_marginTop="23dp"-->
+<!--        android:text="val flo" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/textView2"-->
+<!--        android:layout_alignEnd="@+id/textView"-->
+<!--        android:layout_marginTop="55dp"-->
+<!--        android:layout_marginEnd="-16dp"-->
+<!--        android:text="sensorId int" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editData"-->
+<!--        android:layout_width="196dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignBottom="@+id/textView"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="88dp"-->
+<!--        android:layout_marginBottom="-5dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editVal"-->
+<!--        android:layout_width="180dp"-->
+<!--        android:layout_height="28dp"-->
+<!--        android:layout_alignTop="@+id/textView2"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="110dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editSensor"-->
+<!--        android:layout_width="193dp"-->
+<!--        android:layout_height="29dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="99dp"-->
+<!--        android:layout_marginBottom="-4dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:text="@string/add" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/fetchBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button3"-->
+<!--        android:layout_alignStart="@+id/button3"-->
+<!--        android:layout_marginStart="238dp"-->
+<!--        android:layout_marginTop="-48dp"-->
+<!--        android:text="fetchAllOdczt" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/deleteButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignEnd="@+id/fetchBtn"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="67dp"-->
+<!--        android:layout_marginBottom="167dp"-->
+<!--        android:text="DeleteOneOdcz" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/deleteAllBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignBottom="@+id/fetchBtn"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="124dp"-->
+<!--        android:layout_marginBottom="-3dp"-->
+<!--        android:text="delAllOdcz" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/fetchLastOdcz"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="-51dp"-->
+<!--        android:layout_marginBottom="187dp"-->
+<!--        android:layout_toEndOf="@+id/textView"-->
+<!--        android:text="fetchLastOdcz" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/fetchFilteredOdcz"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignBottom="@+id/fetchLastOdcz"-->
+<!--        android:layout_marginStart="110dp"-->
+<!--        android:layout_marginBottom="73dp"-->
+
+<!--        android:text="fetchFilteredDate" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/delAllCzuj"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="217dp"-->
+<!--        android:layout_marginBottom="23dp"-->
+<!--        android:text="delAllCzuj" />-->
+
+    <!--    <Button-->
+<!--        android:id="@+id/delOneCzuj"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignTop="@+id/delAllCzuj"-->
+<!--        android:layout_marginStart="-60dp"-->
+<!--        android:layout_marginTop="-74dp"-->
+<!--        android:layout_toEndOf="@+id/fetchBtn"-->
+<!--        android:text="DeleteOneCzuj" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/fetchFilCzuj"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/delOneCzuj"-->
+<!--        android:layout_alignStart="@+id/editVal"-->
+<!--        android:text="Fetchfiletered" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/addCzuj"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="addCzuj" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="20dp"-->
+<!--        android:paddingTop="10dp"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Room Layout:" />-->
+
+    <ImageView
+        android:id="@+id/houseScheme"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:layout_height="219dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[18]" />
+
+    <TextView
+        android:id="@+id/currentReadings"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="Latest Readings:" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainRecycler"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/addNewCzuj2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:backgroundTint="#33b5e5"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="NewCzuj" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/calendarActivity"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:backgroundTint="#33b5e5"-->
+<!--            android:text="calendar" />-->
+
+
+<!--    </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/open"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:backgroundTint="#33b5e5"-->
+<!--            android:text="openBt" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/fetchAllCzuj"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:backgroundTint="#33b5e5"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="fetchAllCzuj" />-->
+
+
+<!--    </LinearLayout>-->
+
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/discoverBT"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="#33b5e5"-->
+<!--        android:text="discoverBT" />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/roomPlanAdd"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:backgroundTint="#33b5e5"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="roomPlanAdd" />-->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+<!--<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/myBg"-->
+    <!--tools:context=".MainActivity">-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<android.support.design.widget.BottomNavigationView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:id="@+id/navBar"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--app:menu="@menu/bottom_navigation"/>-->
+
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView2"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginBottom="13dp"-->
+
+            <!--android:text="@string/toTake"-->
+            <!--android:textSize="30dp"-->
+            <!--android:textStyle="bold"/>-->
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/myRecycler"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:nestedScrollingEnabled="false"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginBottom="13dp"-->
+            <!--app:layoutManager="android.support.v7.widget.LinearLayoutManager" />-->
+
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+            <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="13dp"-->
+        <!--android:textSize="30dp"-->
+            <!--android:textStyle="bold"-->
+        <!--android:text="@string/taken" />-->
+
+        <!--&lt;!&ndash;<android.support.v7.widget.RecyclerView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/takenRecycler"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignBottom="@+id/textView2"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentStart="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginStart="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="50dp">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;</android.support.v7.widget.RecyclerView>&ndash;&gt;-->
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/takenRecycler"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:nestedScrollingEnabled="false"-->
+            <!--android:orientation="horizontal"-->
+            <!--app:layoutManager="android.support.v7.widget.LinearLayoutManager" />-->
+
+
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+<!--</android.support.v4.widget.NestedScrollView>-->
